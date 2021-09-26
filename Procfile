@@ -1,0 +1,1 @@
+web: gunicorn main:sentiment_app
