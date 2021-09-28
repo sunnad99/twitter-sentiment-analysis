@@ -1,1 +1,1 @@
-web: gunicorn main:sentiment_app
+web: gunicorn flask_app:sentiment_app
