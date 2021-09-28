@@ -9,8 +9,8 @@ from nltk.tokenize import TweetTokenizer, RegexpTokenizer
 from nltk.tokenize.treebank import TreebankWordDetokenizer
 
 # File paths for keras tokenizer and sentiment model
-TOKENIZER_FILE = "model_files/tweet_tokenizer.pickle"
-MODEL_FILE = "model_files/bidirectional_LSTM_layer_model_finalized.h5"
+TOKENIZER_FILE = "./model_files/tweet_tokenizer.pickle"
+MODEL_FILE = "./model_files/bidirectional_LSTM_layer_model_finalized.h5"
 
 # Loading tokenizer and model
 with open(TOKENIZER_FILE, 'rb') as handle:
