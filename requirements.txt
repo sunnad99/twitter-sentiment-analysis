@@ -3,4 +3,3 @@ Flask==2.0.1
 WTForms==2.3.3
 keras==2.6.0
 Flask_WTF==0.15.1
-tensorflow==2.6.0
